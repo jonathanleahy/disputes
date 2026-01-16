@@ -1249,8 +1249,17 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="p-4 bg-gray-50 rounded-lg border border-gray-200">
-                                <p class="text-xs text-gray-700"><strong>Note:</strong> Pre-arbitration is typically the final step. Network decision is binding.</p>
+                            <div class="p-4 bg-amber-50 rounded-lg border border-amber-200" data-reveal-segment="2">
+                                <h4 class="font-semibold text-sm text-amber-800 mb-2">Pre-Arbitration Fees</h4>
+                                <div class="space-y-1 text-xs text-amber-700">
+                                    <p><strong>Visa:</strong> $250-$500 filing fee</p>
+                                    <p><strong>Mastercard:</strong> $150-$400 filing fee</p>
+                                    <p><strong>If you lose:</strong> Fee is non-refundable + dispute amount lost</p>
+                                    <p><strong>If you win:</strong> Fee may be recovered from acquirer</p>
+                                </div>
+                            </div>
+                            <div class="p-4 bg-red-50 rounded-lg border border-red-200" data-reveal-segment="2">
+                                <p class="text-xs text-red-700"><strong>Warning:</strong> Only escalate with strong evidence. Win rates at pre-arbitration are ~40-50%.</p>
                             </div>
                         </div>
                     </div>
@@ -1786,7 +1795,7 @@ const DisputeDialog = ({ dispute }) => {
             ],
             12: [
                 {speaker: 'ALEX', text: "We've escalated to pre-arbitration. PRE_ARBITRATION_OPENED status. The card network makes the final call."},
-                {speaker: 'JORDAN', text: "Important: pre-arbitration has fees. Escalate and lose, you pay arbitration costs. Communicate this risk clearly."},
+                {speaker: 'JORDAN', text: "Important: pre-arbitration has significant fees. Visa charges two-fifty to five hundred dollars, Mastercard charges one-fifty to four hundred. If you lose, that fee is gone plus the dispute amount. Win rates hover around forty to fifty percent, so only escalate with strong evidence."},
                 {speaker: 'ALEX', text: "The API requires comprehensive evidence and network-specific questions. Visa and Mastercard have different requirements."},
                 {speaker: 'JORDAN', text: "Our wizard has three steps. Review evidence, add documentation, confirm with fee disclosure."},
                 {speaker: 'ALEX', text: "Thirty to forty-five days for the network decision. ACCEPTED means you won. DECLINED means you lost."},

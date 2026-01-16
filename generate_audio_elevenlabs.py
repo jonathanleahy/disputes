@@ -105,7 +105,7 @@ SCRIPT = {
     ],
     12: [
         ("ALEX", "We've escalated to pre-arbitration. PRE_ARBITRATION_OPENED status. The card network makes the final call."),
-        ("JORDAN", "Important: pre-arbitration has fees. Escalate and lose, you pay arbitration costs. Communicate this risk clearly."),
+        ("JORDAN", "Important: pre-arbitration has significant fees. Visa charges two-fifty to five hundred dollars, Mastercard charges one-fifty to four hundred. If you lose, that fee is gone plus the dispute amount. Win rates hover around forty to fifty percent, so only escalate with strong evidence."),
         ("ALEX", "The API requires comprehensive evidence and network-specific questions. Visa and Mastercard have different requirements."),
         ("JORDAN", "Our wizard has three steps. Review evidence, add documentation, confirm with fee disclosure."),
         ("ALEX", "Thirty to forty-five days for the network decision. ACCEPTED means you won. DECLINED means you lost."),
